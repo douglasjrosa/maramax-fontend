@@ -27,7 +27,7 @@ const Footer = () => {
 								footerColumn.links.map((link, linkIndex) => (
 									<li
 										key={`footerLinkKey${linkIndex}`}
-										className="py-3 lg:py-2 text-2xl lg:text-xl mx-1 my-4 font-medium text-lime-600 hover:text-lime-700"
+										className="py-3 lg:py-2 text-2xl lg:text-xl mx-1 my-4 font-medium text-lime-700 hover:text-lime-800"
 									>
 										<CustomLink link={link}>
 											{link.text}
@@ -39,7 +39,7 @@ const Footer = () => {
 									(desc, descIndex) => (
 										<li
 											key={`footerLinkKey${descIndex}`}
-											className="py-3 lg:py-2 text-2xl lg:text-xl mx-1 my-4 font-medium text-lime-600 hover:text-lime-700"
+											className="py-3 lg:py-2 text-2xl lg:text-xl mx-1 my-4 font-medium text-lime-700 hover:text-lime-800"
 										>
 											{desc}
 										</li>
