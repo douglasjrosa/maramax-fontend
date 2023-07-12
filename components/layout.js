@@ -15,8 +15,13 @@ import {
 	whatsappMsg
 } from 'data/global';
 
+const InitModal = dynamic(() => import('/components/elements/init-modal'), {
+	ssr: false
+});
+
 const Layout = ({ children }) => {
 	const [bannerIsShown, setBannerIsShown] = useState(true);
+	const [shown, setShown] = useState();
 
 	return (
 		<div className="flex flex-col justify-between ">
@@ -24,6 +29,7 @@ const Layout = ({ children }) => {
 				<div className="fixed w-full z-50">
 					<Navbar />
 				</div>
+				{!shown && <InitModal closeSelf={() => setShown(true)} />}
 				<div className="relative z-10">{children}</div>
 			</div>
 			<Footer />

@@ -3,7 +3,7 @@ import dynamic from 'next/dynamic';
 import CustomLink from './custom-link';
 import { footer } from 'data/global';
 const LeadsForm = dynamic(() =>
-	import('/components/sections/leads-form')
+	import('/components/elements/leads-form')
 );
 
 const Footer = () => {

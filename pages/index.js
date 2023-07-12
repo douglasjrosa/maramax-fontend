@@ -1,5 +1,5 @@
 import dynamic from 'next/dynamic';
-import { baseUrl, mainImage } from '@/lib/global';
+import { baseUrl } from '@/lib/global';
 const Seo = dynamic(() => import('/components/elements/seo'));
 const FeatureRowsGroup = dynamic(() =>
 	import('/components/sections/feature-rows-group')
@@ -18,12 +18,11 @@ const data = {
 				'Nosso foco é trazer para os lares, as boas energias e a beleza natural que a madeira oferece. A gente entende que toda peça de madeira, um dia já respirou como um ser vivo e teve uma história. Por isso cuidamos de cada detalhe com carinho em cada peça que fazemos.',
 			link: null,
 			media: {
-				name: '51.jpg',
+				name: '35.jpg',
 				path: 'produtos/router',
-				alternativeText:
-					'Suporte para pequenos vasos de planta.',
-				width: 327,
-				height: 395
+				alternativeText: 'Tábua de frios e petiscos.',
+				width: 350,
+				height: 350
 			},
 			icon: null
 		},
@@ -36,8 +35,7 @@ const data = {
 			media: {
 				name: '1.png',
 				path: 'eventos/festa-do-leite',
-				alternativeText:
-					'Suporte para pequenos vasos de planta.',
+				alternativeText: 'Suporte para pequenos vasos de planta.',
 				width: 497,
 				height: 86
 			},
@@ -52,8 +50,7 @@ const data = {
 			media: {
 				name: 'marketplaces.jpg',
 				path: 'site',
-				alternativeText:
-					'Logomarcas do Mercado Livre e Shopee.',
+				alternativeText: 'Logomarcas do Mercado Livre e Shopee.',
 				width: 1200,
 				height: 787
 			},
@@ -63,7 +60,7 @@ const data = {
 };
 const metadata = {
 	twitterCardType: 'summary_large_image',
-	metaTitle: 'Homepage Maramax Paletes',
+	metaTitle: 'Maramax - Madeira Entalhada com Serenidade e Elegância',
 	metaDescription:
 		'A Maramax produz itens de madeira com fino acabamento para decoração e utilidades domésticas.',
 	shareImage: {
@@ -77,26 +74,29 @@ const metadata = {
 	}
 };
 
-export default () => (
-	<>
-		{/* Add meta tags for SEO*/}
-		<Seo metadata={metadata} />
-		{/* Display content sections */}
-		<Container slug={slug}>
-			<div className="flex flex-col">
-				<Image
-					media={{
-						name: 'prancha.jpeg',
-						path: 'site',
-						alternativeText: "prancha com pães"
-					}}
-					className="object-contain h-auto"
-					width={1920}
-					height={918}
-					priority={1}
-				/>
-				<FeatureRowsGroup data={data} slug={slug} />
-			</div>
-		</Container>
-	</>
-);
+export default () => {
+	return (
+		<>
+			{/* Add meta tags for SEO*/}
+			<Seo metadata={metadata} />
+
+			{/* Display content sections */}
+			<Container slug={slug}>
+				<div className="flex flex-col">
+					<Image
+						media={{
+							name: 'prancha.jpeg',
+							path: 'site',
+							alternativeText: 'prancha com pães'
+						}}
+						className="object-contain h-auto"
+						width={1920}
+						height={918}
+						priority={1}
+					/>
+					<FeatureRowsGroup data={data} slug={slug} />
+				</div>
+			</Container>
+		</>
+	);
+};

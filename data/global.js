@@ -1,4 +1,7 @@
 export const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+export const rbxToken = process.env.NEXT_PUBLIC_RBX_TOKEN;
+export const rbxEmail = process.env.NEXT_PUBLIC_RBX_EMAIL;
+export const rbxApiUrl = process.env.NEXT_PUBLIC_RBX_API_URL;
 export const metaTitleSuffix =
 	'Maramax - Madeira entalhada com serenidade e elegância';
 export const metadata = {
@@ -146,7 +149,7 @@ export const footer = {
 		name: 'logomarca.png',
 		path: 'site',
 		alternativeText:
-			'Galpão de porta-paletes com uma empilhadeira movimentando as mercadorias com paletes.',
+			'Logomarca Maramax.',
 		width: 1000,
 		height: 750
 	}

@@ -33,7 +33,7 @@ const data = {
 };
 const metadata = {
 	twitterCardType: 'summary_large_image',
-	metaTitle: 'Informações Maramax Paletes',
+	metaTitle: 'Maramax - Madeira Entalhada com Serenidade e Elegância',
 	metaDescription:
 		'A Maramax produz itens de madeira com fino acabamento para decoração e utilidades domésticas.',
 	shareImage: {
@@ -48,7 +48,6 @@ const metadata = {
 };
 
 export default ({ imageFiles }) => {
-	console.log(imageFiles);
 	return (
 		<div className="relative pt-10">
 			{/* Add meta tags for SEO*/}

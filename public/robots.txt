@@ -1,4 +1,4 @@
-Sitemap: https://braghetopaletes.com.br/sitemap.xml
+Sitemap: https://maramax.com.br/sitemap.xml
 
 User-agent: *
 Allow: /*

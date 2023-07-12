@@ -8,8 +8,8 @@ export default ({ Component, pageProps }) => (
 	<>
 		<Head>
 			<link rel="manifest" href="/manifest.json" />
-			<link rel="apple-touch-icon" href="/favicon_io/apple-touch-icon.png"></link>
-			<meta name="theme-color" content="#e6b800" />
+			<link rel="apple-touch-icon" href="/pwa/ios/180.png"></link>
+			<meta name="theme-color" content="#ffe371" />
 		</Head>
 
 		<DefaultSeo

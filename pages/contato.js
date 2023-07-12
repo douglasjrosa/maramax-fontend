@@ -33,7 +33,7 @@ const data = {
 };
 const metadata = {
 	twitterCardType: 'summary_large_image',
-	metaTitle: 'Homepage Maramax Paletes',
+	metaTitle: 'Maramax - Madeira Entalhada com Serenidade e Elegância',
 	metaDescription:
 		'A Maramax produz itens de madeira com fino acabamento para decoração e utilidades domésticas.',
 	shareImage: {
