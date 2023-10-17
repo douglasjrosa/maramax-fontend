@@ -28,24 +28,24 @@ const data = {
 		},
 		{
 			joinNextRow: false,
-			title: 'Pré-lançamento na Festa do Leite em Batatais',
+			title: 'Lançamento no Mercado Livre',
 			description:
-				'A Maramax é uma empresa do Grupo Max Brasil que acabou de nascer. Nossas vendas serão feitas pelos marketplaces: Mercado Livre e Shopee e como estamos em fase de iniciação, nossa campanha é de SUPER OFERTAS! Não perca!',
+				'A Maramax é uma empresa recém nascida que pertence ao Grupo Max Brasil. Fazem parte do mesmo grupo as empresas Ribermax Embalagens de Madeira e Bragheto Paletes. Nossas vendas serão feitas pelos marketplaces: Mercado Livre e Shopee e como estamos em fase de iniciação, haverá várias campanhas de SUPER OFERTAS! Não perca!',
 			link: null,
 			media: {
-				name: '1.png',
-				path: 'eventos/festa-do-leite',
-				alternativeText: 'Suporte para pequenos vasos de planta.',
-				width: 497,
-				height: 86
+				name: 'logomarca_ml.jpg',
+				path: 'eventos/lancamento-ml',
+				alternativeText: 'logomarca do Mercado Livre.',
+				width: 498,
+				height: 332
 			},
 			icon: null
 		},
 		{
 			joinNextRow: false,
-			title: 'Participe do pré-lançamento para comprar tudo a preço de custo direto da fábrica.',
+			title: 'Participe do lançamento para comprar tudo a preço de custo direto da fábrica.',
 			description:
-				'Você só precisa deixar seu contato para receber no dia do lançamento os links dos produtos no Mercado Livre e na Shopee com preços muito baixos.',
+				'Você só precisa deixar seu contato para receber as informações de novos produtos e super CUPONS DE DESCONTOS nos dias de campanha promocional com os links dos produtos no Mercado Livre e na Shopee com preços muito MUUUITO baixos.',
 			link: null,
 			media: {
 				name: 'marketplaces.jpg',

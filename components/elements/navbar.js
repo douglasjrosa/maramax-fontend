@@ -27,7 +27,7 @@ const Navbar = () => {
 				</Link>
 			</div>
 			<nav
-				className="bg-yellow-100 shadow-lg"
+				className="bg-yellow-300 shadow-lg"
 			>
 				<div className="container flex flex-row justify-end">
 					<div id="logo-and-links" className="flex flex-row">
@@ -37,7 +37,7 @@ const Navbar = () => {
 								{navbar.links.map((navLink, index) => (
 									<li key={`navKey${index}`}>
 										<CustomLink link={navLink}>
-											<div className="hover:text-lime-500 text-lime-600 font-semibold px-2 py-1">
+											<div className="hover:text-lime-500 text-slate-700 font-semibold px-2 py-1">
 												{navLink.text}
 											</div>
 										</CustomLink>

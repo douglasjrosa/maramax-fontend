@@ -11,18 +11,18 @@ const InitModal = ({ closeSelf }) => (
 				<Image
 					media={{
 						alternativeText: 'Logo da Festa do Leite 2023',
-						name: '1.jpg',
-						path: 'eventos/festa-do-leite'
+						name: 'logomarca_ml.jpg',
+						path: 'eventos/lancamento-ml'
 					}}
 					className=""
-					width="100"
+					width="150"
 					height="100"
 					priority={1}
 				/>
 			</div>
 			<div className="lg:w-3/4 text-center items-center">
-				<div className="lg:w-3/4 text-4xl text-red-500 text-bold">
-					Pré-Lançamento na Feira do Leite em Batatais SP
+				<div className="p-3 text-4xl text-red-500 text-bold">
+					Estamos em Campanha de Lançamento no Mercado Livre!!!
 				</div>
 				<LeadsForm closeSelf={closeSelf} />
 			</div>

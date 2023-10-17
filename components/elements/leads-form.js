@@ -32,15 +32,16 @@ const LeadsForm = ({closeSelf}) => {
 	};
 
 	return (
-		<div className="m-16">
+		<div className="m-4">
 			<form
 				onSubmit={handleSubmit}
 				className="p-4 bg-white rounded-lg shadow "
 			>
-				<h2 className="text-2xl font-semibold mb-4">
-					Quero receber o aviso do lançamento com PREÇOS DE FÁBRICA!
+				<h2 className="text-2xl font-semibold mb-4 flex-wrap">
+					Quero ficar sabendo dos lançamentos com PREÇOS DE FÁBRICA e CUPONS DE DESCONTO!
 				</h2>
-				<div className="flex flex-col justify-center md:p-8 sm:items-center md:gap-10 md:flex-row">
+					
+				<div className="flex flex-col justify-center md:p-8 sm:items-center md:gap-10 md:flex-row flex-wrap mt-4">
 					<div className="md:w-1/3">
 						<label
 							htmlFor="nome"
