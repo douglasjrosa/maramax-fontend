@@ -68,8 +68,8 @@ export default ({ imageFiles }) => {
 							<p className="text-bold text-2xl text-center md:text-left md:pl-6" >{productFile.title}</p>
 							<p className="text-bold text-3xl text-center md:text-left md:pl-6">de <span className="text-red-600 line-through">R$ {productFile.price}</span> por <span className="text-4xl">R$ {productFile.finalPrice}</span></p>
 							<div className='flex justify-end flex-wrap gap-4 p-3 mt-4 justify-center'>
-								<ButtonMl cupom={productFile.cupomMl} percentOff={productFile.percentOffMl} link={productFile.buttonLinkML} />
-								<ButtonShopee cupom={productFile.cupomShopee} percentOff={productFile.percentOffShopee} link={productFile.buttonLinkShopee} />
+								{productFile.buttonLinkML != "" && <ButtonMl cupom={productFile.cupomMl} percentOff={productFile.percentOffMl} link={productFile.buttonLinkML} />}
+								{productFile.buttonLinkShopee != "" && <ButtonShopee cupom={productFile.cupomShopee} percentOff={productFile.percentOffShopee} link={productFile.buttonLinkShopee} />}
 							</div>
 						</div>
 					</div>
