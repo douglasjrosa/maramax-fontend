@@ -81,7 +81,7 @@ export default ({ imageFiles }) => {
 			<h2 className="text-5xl font-bold py-6 text-gray-700 text-center">
 				Produtos a serem lançados em breve:
 			</h2>
-			<div className="flex flex-row flex-wrap py-28 px-10 gap-20 justify-center">
+			<div className="flex flex-row flex-wrap py-28 px-10 gap-10 md:gap-20 justify-center">
 				{imageFiles.map((imageFile, index) => (
 					<div key={index} className="w-1/4">
 						<div

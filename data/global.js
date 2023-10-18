@@ -190,4 +190,4 @@ export const whatsappImage = {
 export const whatsappMsg =
 	'Olá, visitei o site da Maramax e gostaria de mais informações...';
 
-export const showInitModal = false;
+export const showInitModal = true;
