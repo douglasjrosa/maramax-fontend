@@ -18,8 +18,8 @@ const data = {
 				'Nosso foco é trazer para os lares, as boas energias e a beleza natural que a madeira oferece. A gente entende que toda peça de madeira, um dia já respirou como um ser vivo e teve uma história. Por isso cuidamos de cada detalhe com carinho em cada peça que fazemos.',
 			link: null,
 			media: {
-				name: '35.jpg',
-				path: 'produtos/router',
+				name: '48.jpg',
+				path: 'produtos/produtos-gallery',
 				alternativeText: 'Tábua de frios e petiscos.',
 				width: 350,
 				height: 350
